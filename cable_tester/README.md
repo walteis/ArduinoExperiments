@@ -32,3 +32,6 @@ This project is a simple Ethernet cable tester using a 74HC595.  Basic concept i
 </tr>
   </tbody>
 </table>
+
+## Schematic
+![Image](./cable_tester_schem.png)
