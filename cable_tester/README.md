@@ -5,6 +5,9 @@ This project is a simple Ethernet cable tester using a 74HC595.  Basic concept i
 2. Check each pin on RJ45 connecter "B" for signal
 3. Repeat for all pins on connector "A".
 
+## Quick Note about different boards
+The older Micro I tried has different pinouts for the SSD_1306.  It uses D2 and D3 instead of A4 and A5.
+
 ## Parts 
 <table>
   <thead>
