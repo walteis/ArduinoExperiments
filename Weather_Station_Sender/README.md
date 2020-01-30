@@ -5,10 +5,10 @@ This project is a weather station sensing unit proof of concept utilizing a 433M
 Data is sent in a home-grown packet with station id and sensor readings.
 ## Packet structure
   unit id (three bytes) <br />
-  packet type (two bytes)
-  temperature (three bytes)
-  humidity (three bytes)
-  wind speed (three bytes)
+  packet type (two bytes) <br />
+  temperature (three bytes) <br />
+  humidity (three bytes) <br />
+  wind speed (three bytes) <br />
   rainfall (five bytes, assumed two digit fractional part)
   
 ## Parts 
