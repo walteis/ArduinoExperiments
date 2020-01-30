@@ -33,3 +33,6 @@ Data is sent in a home-grown packet with station id and sensor readings.
 </tr>
   </tbody>
 </table>
+
+## Schematic
+![Image].(./Weather_Station_Sender_schem.png)
