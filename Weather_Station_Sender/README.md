@@ -4,9 +4,6 @@ This project is a weather station sensing unit proof of concept utilizing a 433M
 
 Data is sent in a home-grown packet with station id and sensor readings.
 
-### Note:
-The schematic shows an RHT03 instead of a DHT11.  This is only because Fritzing didn't have a DHT11 component available for the drawing.
-
 ## Packet structure
   unit id (three bytes) <br />
   packet type (two bytes) <br />
@@ -39,4 +36,8 @@ The schematic shows an RHT03 instead of a DHT11.  This is only because Fritzing 
 </table>
 
 ## Schematic
+### Note:
+The schematic shows an RHT03 instead of a DHT11.  This is only because Fritzing didn't have a DHT11 component available for the drawing.
+
+
 ![Image](./Weather_Station_Sender_schem.png)
