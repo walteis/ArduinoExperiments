@@ -3,6 +3,10 @@
 This project is a weather station sensing unit proof of concept utilizing a 433MHz transmitter and various weather sensors. Inital build is limited to temp/humidity.
 
 Data is sent in a home-grown packet with station id and sensor readings.
+
+### Note:
+The schematic shows an RHT03 instead of a DHT11.  This is only because Fritzing didn't have a DHT11 component available for the drawing.
+
 ## Packet structure
   unit id (three bytes) <br />
   packet type (two bytes) <br />
